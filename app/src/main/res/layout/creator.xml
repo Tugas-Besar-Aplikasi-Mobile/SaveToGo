@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/about_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="About This Application"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:elevation="60dp"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/about_thisapp"
+                    android:layout_width="265dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="Applikasi Ini Dibuat Dengan Tujuan Membantu Kaum Milenial Dalam Memantau Catatan Keuangan Mereka"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/fitur_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Fitur In This Application"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:elevation="60dp"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/fitur1"
+                    android:layout_width="318dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="1. Perkiraan Tabungan Yang Akan Didapatkan"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fitur2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fitur1"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="2. Catatan Transaksi Yang Dilakukan"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fitur3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fitur2"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="3. Catatan Tabungan"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fitur4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fitur3"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="4. Catatan Harian"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+
+            <TextView
+                android:id="@+id/textdasboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Creator"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:elevation="60dp"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/avatarmyacc"
+                    android:layout_width="72dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/fmale" />
+
+                <TextView
+                    android:id="@+id/usernamemyacc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc"
+                    android:paddingLeft="20dp"
+                    android:text="Dian Rezky Wulandari"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/nimuser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernamemyacc"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc"
+                    android:paddingLeft="20dp"
+                    android:text="1103184022"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/kelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nimuser"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc"
+                    android:paddingLeft="20dp"
+                    android:text="TK-41-01"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:elevation="60dp"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/avatarmyacc1"
+                    android:layout_width="72dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/avatarlogo" />
+
+                <TextView
+                    android:id="@+id/usernamemyacc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc1"
+                    android:paddingLeft="20dp"
+                    android:text="Ivan Satrio Pamungkas"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/nimuser1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernamemyacc1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc1"
+                    android:paddingLeft="20dp"
+                    android:text="1103183169"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/kelas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nimuser1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc1"
+                    android:paddingLeft="20dp"
+                    android:text="TK-41-01"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background"
+            android:clickable="true"
+            android:elevation="60dp"
+            android:focusable="true"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="344dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/avatarmyacc2"
+                    android:layout_width="72dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/avatarlogo" />
+
+                <TextView
+                    android:id="@+id/usernamemyacc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc2"
+                    android:paddingLeft="20dp"
+                    android:text="Dyka Khairullah Z"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/nimuser2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/usernamemyacc2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc2"
+                    android:paddingLeft="20dp"
+                    android:text="1103184190"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/kelas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nimuser2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/avatarmyacc2"
+                    android:paddingLeft="20dp"
+                    android:text="TK-41-01"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Back To Main Menu"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>
